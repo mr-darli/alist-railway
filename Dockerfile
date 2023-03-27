@@ -5,7 +5,7 @@ RUN chmod -R 777 /opt/alist/data
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-EXPOSE 5244
+EXPOSE 443
 
 ENV DB_TYPE=mysql
 ENV CACHE_EXPIRATION=60
