@@ -23,3 +23,7 @@ cat >/opt/alist/data/config.json <<EOF
   }
 }
 EOF
+
+cd /opt/alist
+./alist admin
+./alist server
