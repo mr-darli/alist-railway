@@ -8,7 +8,7 @@ cat >/opt/alist/data/config.json <<EOF
   "jwt_secret": "random generated",
   "token_expires_in": 48,
   "database": {
-    "type": "$DB_TYPE",
+    "type": "postgres",
     "host": "$PGHOST",
     "port": $PGPORT,
     "user": "$PGUSER",
