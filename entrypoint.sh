@@ -26,7 +26,7 @@ cat >/opt/alist/data/config.json <<EOF
   "temp_dir": "data/temp",
   "bleve_dir": "data/bleve",
   "log": {
-    "enable": true,
+    "enable": false,
     "name": "data/log/log.log",
     "max_size": 10,
     "max_backups": 5,
