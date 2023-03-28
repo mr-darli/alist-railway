@@ -2,10 +2,9 @@ cat >/opt/alist/data/config.json <<EOF
 {
   "force": false,
   "address": "0.0.0.0",
-  "port": 5244,
+  "port": 443,
   "site_url": "",
   "cdn": "",
-  "jwt_secret": "random generated",
   "token_expires_in": 48,
   "database": {
     "type": "postgres",
@@ -26,7 +25,7 @@ cat >/opt/alist/data/config.json <<EOF
   "temp_dir": "data/temp",
   "bleve_dir": "data/bleve",
   "log": {
-    "enable": false,
+    "enable": true,
     "name": "data/log/log.log",
     "max_size": 10,
     "max_backups": 5,
