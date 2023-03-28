@@ -9,7 +9,7 @@ cat >/opt/alist/data/config.json <<EOF
   "database": {
     "type": "$DB_TYPE",
     "host": "$DB_HOST",
-    "port": DB_PORT,
+    "port": $DB_PORT,
     "user": "$DB_USER",
     "password": "$DB_PASS",
     "name": "$DB_NAME",
