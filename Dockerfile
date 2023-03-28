@@ -7,7 +7,7 @@ RUN chmod +x /entrypoint.sh
 
 EXPOSE 443
 
-ENV DB_TYPE=postgres
+ENV DB_TYPE=mysql
 ENV CACHE_EXPIRATION=60
 ENV CACHE_CLEANUP_INTERVAL=120
 
