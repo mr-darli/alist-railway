@@ -37,3 +37,7 @@ cat >/opt/alist/data/config.json <<EOF
   "tls_insecure_skip_verify": false
 }
 EOF
+
+cd /opt/alist
+./alist admin
+./alist server
