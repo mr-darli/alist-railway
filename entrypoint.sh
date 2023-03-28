@@ -7,12 +7,12 @@ cat >/opt/alist/data/config.json <<EOF
   "cdn": "",
   "token_expires_in": 48,
   "database": {
-    "type": "postgres",
-    "host": "$PGHOST",
-    "port": $PGPORT,
-    "user": "$PGUSER",
-    "password": "$PGPASSWORD",
-    "name": "$PGDATABASE",
+    "type": "$DB_TYPE",
+    "host": "$DB_HOST",
+    "port": $DB_PORT,
+    "user": "$DB_USER",
+    "password": "$DB_PASS",
+    "name": "$DB_NAME",
     "db_file": "data/data.db",
     "table_prefix": "x_",
     "ssl_mode": "require"
